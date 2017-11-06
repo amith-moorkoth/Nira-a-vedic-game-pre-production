@@ -218,7 +218,7 @@ public class MainActivity extends Activity  implements SimpleGestureFilter.Simpl
                 g.Setpoint(but[j],points[cball][0],points[cball][1],points[nball][0],points[nball][1]);
                 gb.ball_locker=1;
                 int[] aa={game_state[0],game_state[1],game_state[2]};
-                if(mycolor==1){aa[0]=game_state[3];aa[1]=game_state[4];aa[2]=game_state[5];}
+                if(mycolor==2){aa[0]=game_state[3];aa[1]=game_state[4];aa[2]=game_state[5];}
                 if(gb.check_won(aa)){
                     try{
                         Log.d("hh",game_state_mem2.toString());
